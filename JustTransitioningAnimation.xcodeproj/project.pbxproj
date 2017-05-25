@@ -14,6 +14,9 @@
 		4A6AD1921ED5C3900010D88C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A6AD1901ED5C3900010D88C /* LaunchScreen.storyboard */; };
 		4A6AD19D1ED5C3900010D88C /* JustTransitioningAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6AD19C1ED5C3900010D88C /* JustTransitioningAnimationTests.swift */; };
 		4A6AD1A81ED5C3900010D88C /* JustTransitioningAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6AD1A71ED5C3900010D88C /* JustTransitioningAnimationUITests.swift */; };
+		4A6AD1B61ED5C3B50010D88C /* JustPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6AD1B51ED5C3B50010D88C /* JustPresentationController.swift */; };
+		4A6AD1B81ED5C5BA0010D88C /* JustAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6AD1B71ED5C5BA0010D88C /* JustAnimator.swift */; };
+		4A6AD1BA1ED5C8CB0010D88C /* JustTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6AD1B91ED5C8CB0010D88C /* JustTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		4A6AD1A31ED5C3900010D88C /* JustTransitioningAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustTransitioningAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A6AD1A71ED5C3900010D88C /* JustTransitioningAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustTransitioningAnimationUITests.swift; sourceTree = "<group>"; };
 		4A6AD1A91ED5C3900010D88C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A6AD1B51ED5C3B50010D88C /* JustPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JustPresentationController.swift; sourceTree = "<group>"; };
+		4A6AD1B71ED5C5BA0010D88C /* JustAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JustAnimator.swift; sourceTree = "<group>"; };
+		4A6AD1B91ED5C8CB0010D88C /* JustTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JustTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				4A6AD18E1ED5C3900010D88C /* Assets.xcassets */,
 				4A6AD1901ED5C3900010D88C /* LaunchScreen.storyboard */,
 				4A6AD1931ED5C3900010D88C /* Info.plist */,
+				4A6AD1B51ED5C3B50010D88C /* JustPresentationController.swift */,
+				4A6AD1B71ED5C5BA0010D88C /* JustAnimator.swift */,
+				4A6AD1B91ED5C8CB0010D88C /* JustTableViewController.swift */,
 			);
 			path = JustTransitioningAnimation;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A6AD1B61ED5C3B50010D88C /* JustPresentationController.swift in Sources */,
 				4A6AD18A1ED5C3900010D88C /* ViewController.swift in Sources */,
+				4A6AD1B81ED5C5BA0010D88C /* JustAnimator.swift in Sources */,
 				4A6AD1881ED5C3900010D88C /* AppDelegate.swift in Sources */,
+				4A6AD1BA1ED5C8CB0010D88C /* JustTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

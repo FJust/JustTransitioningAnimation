@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4A6AD1831ED5C3900010D88C"
+               BuildableName = "JustTransitioningAnimation.app"
+               BlueprintName = "JustTransitioningAnimation"
+               ReferencedContainer = "container:JustTransitioningAnimation.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4A6AD1971ED5C3900010D88C"
+               BuildableName = "JustTransitioningAnimationTests.xctest"
+               BlueprintName = "JustTransitioningAnimationTests"
+               ReferencedContainer = "container:JustTransitioningAnimation.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4A6AD1A21ED5C3900010D88C"
+               BuildableName = "JustTransitioningAnimationUITests.xctest"
+               BlueprintName = "JustTransitioningAnimationUITests"
+               ReferencedContainer = "container:JustTransitioningAnimation.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4A6AD1831ED5C3900010D88C"
+            BuildableName = "JustTransitioningAnimation.app"
+            BlueprintName = "JustTransitioningAnimation"
+            ReferencedContainer = "container:JustTransitioningAnimation.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4A6AD1831ED5C3900010D88C"
+            BuildableName = "JustTransitioningAnimation.app"
+            BlueprintName = "JustTransitioningAnimation"
+            ReferencedContainer = "container:JustTransitioningAnimation.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4A6AD1831ED5C3900010D88C"
+            BuildableName = "JustTransitioningAnimation.app"
+            BlueprintName = "JustTransitioningAnimation"
+            ReferencedContainer = "container:JustTransitioningAnimation.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
